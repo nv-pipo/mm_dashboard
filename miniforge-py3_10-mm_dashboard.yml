@@ -1,0 +1,16 @@
+name: py3_10-mm_dashboard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - streamlit
+  - google-cloud-firestore
+  - plotly
+  - pandas
+  - black
+  - bandit
+  - pylint
+  - pytest
+  - pytest-cov
+  - autopep8
+  # - pip
